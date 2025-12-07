@@ -1,4 +1,4 @@
-Purpose of This Report
+1. Purpose of This Report
 
 This report explains how the BeEF attack worked, why it succeeded, and what security controls would block or reduce the impact. The goal is not only to fix the exact issue used in the attack but also to strengthen the environment overall so similar client-side attacks become much harder.
 

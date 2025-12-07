@@ -1,6 +1,6 @@
-Kali Linux: 2023.3
+Kali Linux: 2025
 BeEF: package version from Kali repos (beef-xss)
 Windows: Windows 11 Pro, 64-bit
 Browser: Microsoft Edge 121 / Chrome XX
-Juice Shop: Docker image bkimminich/juice-shop (tag used in lab)
+Juice Shop: Docker image bkimminich/juice-shop
 Network: VMware NAT, 192.168.234.145/24

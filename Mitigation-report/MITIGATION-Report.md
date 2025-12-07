@@ -50,7 +50,7 @@ Mixed content protection
 
 The victim machine was able to reach:
 
-http://KALI-IP:3000
+http://192.168.234.145:3000
 
 
 If outbound traffic to unknown ports/IPs had been restricted, the hook script delivery would have failed.
@@ -176,8 +176,8 @@ Victim loads:
 
 
 Result:
-✔ BeEF hook loads
-✔ Browser becomes hooked
+BeEF hook loads
+Browser becomes hooked
 
 After adding CSP:
 Content-Security-Policy: script-src 'self';

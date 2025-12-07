@@ -93,7 +93,7 @@ Prevents JavaScript injection from user data.
 
 4.1.3 Enforce HTTPS Everywhere
 
-If the web server only allowed https://, loading an insecure http://KALI-IP:3000/hook.js would be blocked as mixed content.
+If the web server only allowed https://, loading an insecure http://192.168.234.145:3000/hook.js would be blocked as mixed content.
 
 Effect:
 Browser blocks the insecure script.

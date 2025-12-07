@@ -147,7 +147,14 @@ Fake popup, notification bar, and redirect all execute successfully.
 After installing uBlock Origin or NoScript:
 Result: BeEF hook.js blocked Commands never execute Browser remains unhooked
 
-6.	Final Mitigation Summary Weakness Fix Result External script allowed Add CSP Hook.js blocked HTTP allowed Force HTTPS-only Mixed content blocked Open outbound ports Restrict outbound traffic No connection to BeEF No user awareness Training + warnings Reduces click risk No script filtering NoScript/uBlock Script blocked
+6. Mitigation Summary
+      Weakness               Fix	                      Result
+External script allowed   Add CSP                      Hook.js blocked
+HTTP allowed              Force HTTPS-only             Mixed content blocked
+Open outbound ports       Restrict outbound traffic    No connection to BeEF
+No user awareness         Training + warnings          Reduces click risk
+No script filtering       NoScript/uBlock              Script blocked
+
    
 Together, these controls completely break the original attack chain.
 

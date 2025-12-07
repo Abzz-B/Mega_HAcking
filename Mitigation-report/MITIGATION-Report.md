@@ -194,7 +194,7 @@ Victim does not appear in BeEF.
 5.2 Validation Test 2 — Blocking Outbound Port 3000
 Before:
 
-Victim connects to KALI-IP:3000 successfully → browser hooked.
+Victim connects to 192.168.234.145:3000 successfully → browser hooked.
 
 After firewall rule:
 deny tcp outbound to any port 3000

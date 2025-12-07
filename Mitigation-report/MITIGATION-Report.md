@@ -148,8 +148,10 @@ After installing uBlock Origin or NoScript:
 Result: BeEF hook.js blocked Commands never execute Browser remains unhooked
 
 6.	Final Mitigation Summary Weakness Fix Result External script allowed Add CSP Hook.js blocked HTTP allowed Force HTTPS-only Mixed content blocked Open outbound ports Restrict outbound traffic No connection to BeEF No user awareness Training + warnings Reduces click risk No script filtering NoScript/uBlock Script blocked
+   
 Together, these controls completely break the original attack chain.
-7.	Conclusion
+8.	Conclusion
+   
 By adding a few well-chosen security controls, the original BeEF attack no longer works. The browser can no longer load the hook script, the network blocks outbound traffic to the attacker, and the user is prevented from interacting with malicious UI elements.
 This proves the security enhancements are effective and the environment is now much more resistant to browser-based exploitation and social engineering.
 

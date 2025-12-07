@@ -87,6 +87,7 @@ If the web server only allowed https://, loading an insecure http://192.168.234.
 Effect: Browser blocks the insecure script.
 
 4.2.  Client-Side Mitigations
+
 4.2.1.  Use Script-Blocking Browser Extensions
 Extensions such as:
 uBlock Origin
@@ -107,6 +108,7 @@ This forces all networks to use HTTPS and blocks http:// pages entirely.
 Effect: Victim cannot load the BeEF hook server.
 
 4.3.  Network-Level Mitigations 
+
 4.3.1.  Block Outbound Traffic to Unknown Ports
 
 BeEF uses port 3000. A firewall rule like:

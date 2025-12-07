@@ -66,6 +66,7 @@ The victim did not recognize that the page was suspicious and clicked on interac
 Below are the recommended technical and process-based mitigations mapped to the actual weaknesses observed.
 
 4.1.  Server-Side Mitigations 
+
 4.1.1.  Apply a Strict Content Security Policy (CSP)
 
 A CSP limits where scripts can load from.

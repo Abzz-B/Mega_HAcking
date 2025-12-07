@@ -151,7 +151,7 @@ Result: BeEF hook.js blocked Commands never execute Browser remains unhooked
    
 Together, these controls completely break the original attack chain.
 
-8.	Conclusion
+7.	Conclusion
    
 By adding a few well-chosen security controls, the original BeEF attack no longer works. The browser can no longer load the hook script, the network blocks outbound traffic to the attacker, and the user is prevented from interacting with malicious UI elements.
 This proves the security enhancements are effective and the environment is now much more resistant to browser-based exploitation and social engineering.
